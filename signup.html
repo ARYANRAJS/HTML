@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+</head>
+<body>
+    <h3 align="center">Login Form</h3>
+    <form action="home.html" method="post" enctype="multipart/form-data">
+        <table border="0" align="center" bgcolor="#9f6060">
+            <tr>
+                <td>Enter Name <font color="red">*</font></td>
+                <td><input type="text" name="username" placeholder="Enter Name" required> </td>
+            </tr>
+            <tr>
+                <td>Enter Emailid <font color="red">*</font></td>
+                <td><input type="email" name="useremail" required ></td>
+            </tr>
+            <tr>
+                <td>Password <font color="red">*</font></td>
+                <td><input type="password" name="userpassword" required ></td>
+            </tr>
+            <tr>
+                <td>DOB</td>
+                <td>
+                    <input type="date" name="dob">
+                </td>
+            </tr>
+            <tr>
+                <td>Phone Number</td>
+                <td>
+                    <input type="number" required name="phone_number">
+                </td>
+            </tr>
+            <tr>
+                <td>City</td>
+                <td>
+                    <select name="city">
+                        <option value="">Select City</option>
+                        <option value="indore">Indore</option>
+                        <option value="ujjain">Ujjain</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Gender</td>
+                <td>
+                    male <input type="radio" name="gender" value="male"> 
+                    female <input type="radio" name="gender" value="female">
+                </td>
+            </tr>
+            <tr>
+                <td>Hobby</td>
+                <td>
+                    Dancing <input type="checkbox" name="hobby" value="dancing">
+                    Singing <input type="checkbox" name="hobby" value="singing">
+                </td>
+            </tr>
+            
+            <tr>
+                <td>Address</td>
+                <td>
+                    <textarea name="address" cols="20" rows="5">
+                    </textarea>
+                </td>
+            </tr>
+            <tr>
+                <td>Upload Image</td>
+                <td>
+                    <input type="file" name="file">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center">
+                    <input type="submit" value="Submit" name="btnSubmit">
+                    <input type="reset" value="Reset">
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>

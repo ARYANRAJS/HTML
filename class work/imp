@@ -1,0 +1,13 @@
+
+
+
+HTML IMPTORTANT
+
+👉IN FORM  ALPHABETS 👉 pattern="[a-zA-Z]+" THIS IS USED FOR ONLY WE WANT TO WRITE A ALPHABETS NO NUMBER {NO SPACE FACILITY}
+👉IN FORM  ALPHABETS AND NUMBER👉 pattern="[a-zA-Z0-9\s]+" THIS IS USED FOR ONLY WE WANT TO WRITE A ALPHABETS AND NUMBER {SPACE AND NUMBER FACILITY(IF YOU WANT TO REMOVE NUMBER JUST ERASE '0-9' ONLY )} 
+👉IN FORM  (10) digit no.👉 <input type="text" required name="phone_number" pattern="[1-9]{1}[0-9]{9}"> this is used for (10) digit no. 👉it  is not work in number type(work only in text)👈
+👉IN FORM  like (6,7,8,9)👉 <input type="text" required name="phone_number" pattern="[6-7-8-9]{1}[0-9]{9}" > this is used for 10 digit and starting no. 👉like (6,7,8,9)👈 if you want to add more number so edit this num.
+👉IN FORM  ALPHABETS and number with ristriction👉   <input type="text" required name="phone_number" pattern="[a-zA-Z0-9]{10}" > THIS IS USED FOR ALPHABETS and number with ristriction (10 digits)
+👉IN FORM  PENCARD FORMATE 👉   <input type="text" required name="phone_number" pattern="[A-Z]{5}[0-9]{4}[A-Z]{1}" > this is for pencard (this format is made for pen card)
+
+👉 this pattern is not used i want used this code first apply  this code is for +91 digit 👉 Then, you should use ^([0]|\+91)?[789]\d{9}$ which means starts with 7, 8 or 9 and follows 9 digits after that.

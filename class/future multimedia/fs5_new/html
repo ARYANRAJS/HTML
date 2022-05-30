@@ -1,0 +1,11 @@
+
+hypertext : it transfer the data from source to destination 
+SOurce(html, browser, file)  --------------  Destination (browser, server)
+
+
+CLient(Browser)(google)-----------HttpRequest------------ Google Server 
+
+google -----------(html+css+javascript)
+ 
+
+url : uniform resource locater  

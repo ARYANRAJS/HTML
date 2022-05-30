@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>registrantion form</title>
+</head>
+
+<body>
+    <h2>registrantion Form</h2>
+    <form action="" method="post" enctype="multipart/form-data" >
+        <table border="2">
+            <tr>
+                <td>Enter Your First Name</td>
+                <td><input type="text" placeholder="Enter Your First Name" required></td>
+            </tr>
+            <tr>
+                <td>Enter Your Last Name</td>
+                <td><input type="text" placeholder="Enter Your Last Name" required></td>
+            </tr>
+            <tr>
+                <td>Enter Your Password</td>
+                <td><input type="password" placeholder="Enter Your Password" required></td>
+            </tr>
+            <tr>
+                <td>Re-Enter Your Password</td>
+                <td><input type="password" placeholder="Re-Enter Your Password" required></td>
+            </tr>
+            <tr>
+                <td>Enter Your E-mail </td>
+                <td><input type="email" placeholder="Enter Your E-mail" required></td>
+            </tr>
+            <tr>
+                <td>Enter Your Mobile no. </td>
+                <td><input type="email" placeholder="Enter Your Mobile no. " required></td>
+            </tr>
+            <tr>
+                <td>Enter Your Address </td>
+                <td><textarea name="address" id="" cols="30" rows="10"></textarea></td>
+            </tr>
+            <tr>
+                <td>Enter Youe Gender </td>
+                <td>Male<input type="radio" name="gender" id="male">
+                    Female <input type="radio" name="gender" id="female"></td>
+            </tr>
+            <tr>
+                <td>Select Your Hobby</td>
+               <td>hobby1<input type="checkbox" name="hobby1" id="hobby1">
+                hobby2<input type="checkbox" name="hobby2" id="hobby2">
+                hobby3<input type="checkbox" name="hobby3" id="hobby3"></td> 
+            </tr>
+            <tr>
+                <td>Select Your DOB</td>
+                <td><input type="date" name="DOB" id="DOB"></td>
+            </tr>
+            <tr>
+                <td>Select Your Country</td>
+                <td><select name="country" id="">
+                        <option value="india">INDIA</option>
+                        <option value="USA">USA</option>
+                        <option value="IRAN">IRAN</option>
+                    </select></td>
+            </tr>
+            <tr>
+                <td>Upload Your Pic</td>
+                <td><input type="file" name="file" id="file"></td>
+            </tr>
+            <tr >
+                <td colspan="2" align="center">
+                    <input type="submit" value="Save My Data">
+                    <input type="reset" value="Reset Data">
+                </td>
+                    
+            </tr>
+        </table>
+    </form>
+</body>
+
+</html>
